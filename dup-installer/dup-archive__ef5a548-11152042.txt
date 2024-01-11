@@ -1,0 +1,646 @@
+{
+    "dup_type": "lite",
+    "created": "2024-01-11 15:20:42",
+    "version_dup": "1.5.8",
+    "version_wp": "6.4.2",
+    "version_db": "8.0.16",
+    "version_php": "8.1.23",
+    "version_os": "Darwin",
+    "blogname": "Colibri Voyages",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$eE6eEBHEBDupnW\/NIQJ7P.f54mZcqB4e2vtE.KqWC1692EZt0T70S",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "localhost",
+            "path": "\/",
+            "blogname": "Colibri Voyages",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "melaine",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "http:\/\/localhost:10003",
+            "fullSiteUrl": "http:\/\/localhost:10003",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/uploads",
+            "fullUploadSafePath": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/localhost:10003\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "PHP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8"
+        ],
+        "collationList": [
+            "utf8_general_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "local",
+        "tablesBaseCount": 14,
+        "tablesFinalCount": 14,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 2600,
+        "tablesSizeOnDisk": 8224768,
+        "tablesList": {
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wp_e_events": {
+                "inaccurateRows": 21,
+                "insertedRows": 21,
+                "size": 32768
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_options": {
+                "inaccurateRows": 244,
+                "insertedRows": 249,
+                "size": 4308992
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 1563,
+                "insertedRows": 1673,
+                "size": 1769472
+            },
+            "wp_posts": {
+                "inaccurateRows": 391,
+                "insertedRows": 422,
+                "size": 1556480
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 220,
+                "insertedRows": 220,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 34,
+                "insertedRows": 34,
+                "size": 98304
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 44,
+                "insertedRows": 44,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 34,
+                "insertedRows": 34,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 46,
+                "insertedRows": 46,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 65536
+            }
+        },
+        "lowerCaseTableNames": 2,
+        "dbEngine": "MySQL",
+        "version": "8.0.16",
+        "versionComment": "MySQL Community Server - GPL",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 1,
+        "packageName": "colibri_voyages",
+        "packageHash": "ef5a548-11152042",
+        "secondaryHash": "593c3dd-11152042"
+    },
+    "fileInfo": {
+        "dirCount": 1200,
+        "fileCount": 9660,
+        "size": 474754866
+    },
+    "wpInfo": {
+        "version": "6.4.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public",
+        "targetPaths": [
+            "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "melaine",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "<Oj*%K*+R3HlT%6%P6nK7|Pq)Z4>-[9}r&=7#5@rBF:DVyPre>X^LJ++iOTp=ABr",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "{5sEJ><H3`{;uf,*3i-(bmssy<+3CfR_fNLnk>7si$+<\/UGdh~BUFPJ~+=YvT9mu",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": ">hjaI~P;AvUoTf-*jqKf^TanND  gFU3}k@[1WmxL8<HddmbsksU_LNZ`EVt5Ltb",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "e:U<h7^VD-uaSE4p{42AgAFI2Y@4Ef5{+1QZ~ (f`!#j$;[Z:elB[,cOB~58VkP^",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "?,`9klZ0J3q%SXTW^_5`uGM(YELe&zdrZ_e73=Q[~^lwahqarZ,xC^He.[&Y_;r0",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "~YBk^CD<Q^7i(bt7CEtb$,=`Vz%hKaNQ#}`21dk#cGvvNlCI}3\/o.siF#V8,w*zg",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "\/y=95\/Q)EW~S6<Fht\/K &PQ[)34xA5x[\/P!$xzX^sUD^uhpyg0x(iG-iGxON(sWJ",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "n(DpPo>$-<zuE@tP%3U4#{9F$+p8{CV\/f2hjJw&&!c9W4,>s0{-+bHov)^-\/B>0}",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "http:\/\/localhost:10003\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "http:\/\/localhost:10003\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/themes\/travel-agency",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/themes\/travel-agency",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "http:\/\/localhost:10003\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "http:\/\/localhost:10003",
+                "homeUrl": "http:\/\/localhost:10003",
+                "loginUrl": "http:\/\/localhost:10003\/wp-login.php",
+                "contentUrl": "http:\/\/localhost:10003\/wp-content",
+                "uploadBaseUrl": "http:\/\/localhost:10003\/wp-content\/uploads",
+                "pluginsUrl": "http:\/\/localhost:10003\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/localhost:10003\/wp-content\/mu-plugins",
+                "themesUrl": "http:\/\/localhost:10003\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public",
+                    "abs": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public",
+                    "wpconfig": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public",
+                    "wpcontent": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content",
+                    "uploads": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/uploads",
+                    "plugins": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/plugins",
+                    "muplugins": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/mu-plugins",
+                    "themes": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public",
+                    "abs": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public",
+                    "wpconfig": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public",
+                    "wpcontent": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content",
+                    "uploads": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/uploads",
+                    "plugins": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/plugins",
+                    "muplugins": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/mu-plugins",
+                    "themes": "\/Users\/melainedewitte\/Local Sites\/colibri-voyages\/app\/public\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.8.5",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.8",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.18.3",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "rara-one-click-demo-import\/rara-one-click-demo-import.php": {
+                "slug": "rara-one-click-demo-import\/rara-one-click-demo-import.php",
+                "name": "RARA One Click Demo Import",
+                "version": "1.3.3",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/rara-one-click-demo-import\/",
+                "author": "raratheme",
+                "authorURI": "https:\/\/www.rarathemes.com",
+                "description": "Import demo content, widgets and settings of themes made by RaraTheme with just one click.",
+                "title": "RARA One Click Demo Import",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "travel-agency-companion\/travel-agency-companion.php": {
+                "slug": "travel-agency-companion\/travel-agency-companion.php",
+                "name": "Travel Agency Companion",
+                "version": "1.5.7",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/travel-agency-companion",
+                "author": "raratheme",
+                "authorURI": "raratheme.com",
+                "description": "Companion for adding features to the Travel Agency Theme.",
+                "title": "Travel Agency Companion",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "weglot\/weglot.php": {
+                "slug": "weglot\/weglot.php",
+                "name": "Weglot Translate",
+                "version": "4.2.2",
+                "pluginURI": "http:\/\/wordpress.org\/plugins\/weglot\/",
+                "author": "Weglot Translate team",
+                "authorURI": "https:\/\/weglot.com\/",
+                "description": "Translate your website into multiple languages in minutes without doing any coding. Fully SEO compatible.",
+                "title": "Weglot Translate",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-travel-engine\/wp-travel-engine.php": {
+                "slug": "wp-travel-engine\/wp-travel-engine.php",
+                "name": "WP Travel Engine - Travel and Tour Booking Plugin",
+                "version": "5.7.9",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/wp-travel-engine\/",
+                "author": "WP Travel Engine",
+                "authorURI": "https:\/\/wptravelengine.com\/",
+                "description": "WP Travel Engine is a free travel booking WordPress plugin to create travel and tour packages for tour operators and travel agencies. It is a complete travel management system and includes plenty of useful features. You can create your travel booking website using WP Travel Engine in less than 5 minutes.",
+                "title": "WP Travel Engine - Travel and Tour Booking Plugin",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "travel-agency": {
+                "slug": "travel-agency",
+                "themeName": "Travel Agency",
+                "version": "1.4.9",
+                "themeURI": "https:\/\/rarathemes.com\/wordpress-themes\/travel-agency\/",
+                "parentTheme": false,
+                "template": "travel-agency",
+                "stylesheet": "travel-agency",
+                "description": "Travel Agency is a free WordPress theme to create travel online booking website for tour and travel operators and companies. You can add trips, destinations, and trip types, feature travel activities, highlight your specialties and allow visitors to book the trips. The stunning design combined with modern CSS effects and animation will make your visitors feel like they are already on a trip. Travel Agency WordPress theme is speed optimized, translation ready, SEO-friendly and mobile-friendly. Apart from travel booking companies, you can also use Travel Agency theme for travel blogging, hotel, spa, bed and breakfast, luxury resort, reservation, tour operator, tourism, transports and car booking. Check the demo at https:\/\/rarathemes.com\/previews\/?theme=travel-agency , documentation at https:\/\/docs.rarathemes.com\/docs\/travel-agency\/, and get support at https:\/\/rarathemes.com\/support-ticket\/.",
+                "author": "Rara Theme",
+                "authorURI": "https:\/\/rarathemes.com\/",
+                "tags": [
+                    "one-column",
+                    "two-columns",
+                    "right-sidebar",
+                    "footer-widgets",
+                    "custom-background",
+                    "custom-header",
+                    "custom-menu",
+                    "custom-logo",
+                    "featured-images",
+                    "threaded-comments",
+                    "rtl-language-support",
+                    "translation-ready",
+                    "theme-options",
+                    "food-and-drink",
+                    "holiday",
+                    "entertainment"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyfour": {
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.3",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.6",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Colibri Voyages"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "colibri_voyages_ef5a548bd5426bd99108_20240111152042_installer-backup.php",
+    "package_name": "colibri_voyages_ef5a548bd5426bd99108_20240111152042_archive.zip",
+    "package_hash": "ef5a548-11152042",
+    "package_notes": ""
+}

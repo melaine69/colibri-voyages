@@ -1,0 +1,17 @@
+
+---Downloaded files---
+The import files for: Travel Agency Demo were successfully downloaded!
+Initial max execution time = 1200
+Files info:
+Site URL = http://localhost:10003
+Data file = /Users/melainedewitte/Local Sites/colibri-voyages/app/public/wp-content/uploads/rara-demo-pack/travel-agency-demo-content/content/travelagency.xml
+Widget file = /Users/melainedewitte/Local Sites/colibri-voyages/app/public/wp-content/uploads/rara-demo-pack/travel-agency-demo-content/content/travelagency.wie
+Customizer file = /Users/melainedewitte/Local Sites/colibri-voyages/app/public/wp-content/uploads/rara-demo-pack/travel-agency-demo-content/content/travelagency.dat
+
+------
+Completed AJAX call number: 1
+
+
+------
+Completed AJAX call number: 2
+
